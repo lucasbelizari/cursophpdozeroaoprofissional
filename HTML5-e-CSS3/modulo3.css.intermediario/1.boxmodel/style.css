@@ -4,8 +4,8 @@ body {
 .texto {
     width: 700px;
     height: 500px;
-    background-color: #FF0000;
-    color: #000000;
+    background-color: #000000;
+    color: #FFFFFF;
     font-size: 20px;
     font-family:Helvetica,Verdana,Arial;
     font-weight:bold;
@@ -13,7 +13,7 @@ body {
     text-decoration:underline;
 
     margin:auto;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-top: 20px;
     margin-bottom:;
     margin-left:;
