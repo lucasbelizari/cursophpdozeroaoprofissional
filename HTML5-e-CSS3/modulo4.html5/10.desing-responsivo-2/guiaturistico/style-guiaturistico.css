@@ -26,14 +26,14 @@ h3 {
   float: left;
 }
 
-@media only screen and (min-width:500px) and (max-width:800px) {
+@media only screen and (min-width:600px) and (max-width:900px) {
 
   .cidade {
        width: 50%;
   }
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:599px) {
 
    .cidade {
        width:100%;
