@@ -1,22 +1,28 @@
 <html>
-    <head>
+  <head>
         <title>Karrera</title>
         <link href="karrera-log-style.css" rel="stylesheet"/>
         <meta charset="utf-8">
-    </head>
-    <body>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="1">
+  </head>
+  <body>
+
+
+
+    <div id="site">
          <div id="logoleft">
             <img src="iconkarrera.png" alt=""/>
          </div>
-      <form method="post">
-         <div id="login">
-              <input  type="text" name="Usuário" strong placeholder="Usuário" autofocus autocomplete="on" required/><br/><br/>
-              <input type="password" name="Senha" placeholder="Senha" required><br/><br/>
 
-              <input class="botaoentrar" type="submit" value="Entrar"/><br/><br/>
-              <div>
-                   <select class="areas" name="Qual a sua área de atuação?" required >
-                     <option value="0">Qual a sua área de atuação?</option>
+          <div class="login">
+             <form method="post">
+               <input class="inserçãodados" type="text" name="Usuário" strong placeholder="Usuário" autofocus autocomplete="on" required/><br/><br/>
+               <input class="inserçãodados" type="password" name="Senha" placeholder="Senha" required><br/><br/>
+               <input class="botaoentrar inserçãodados" type="submit" value="Entrar"/><br/><br/>
+                  <select class="inserçãodados" name="Sua área de atuação é?" required >
+                     <option value="0">Área de atuação</option>
                      <option value="1">Administração, Economia e Negócios</option>
                      <option value="2">Ciências Sociais</option>
                      <option value="3">Comunicação e Mídia</option>
@@ -27,18 +33,17 @@
                      <option value="8">Informação e Tecnologia</option>
                      <option value="9">Saúde</option>
                      <option value="10">Turismo e Gastronomia</option>
-                   </select><br/><br/>
-            </div>
-              <div class="termos">
-              <input class="termos" type="checkbox" required/>Aceito os termos de uso
-              </div><br/><br/><br/><br/>
-
-
-
-         <div>
-
+                  </select><br/><br/>
+               <!--<div class="termos">-->
+               <input class="termos" class="checkbox" type="checkbox" required/>Aceito os termos de uso
+               </div>
+            </form>
          </div>
-         <br><br>
-      </form>
-    </body>
+
+            <!--Termos de uso-->
+
+                  <br/><br/><br/><br/>
+
+    <div/>
+  </body>
 </html>
