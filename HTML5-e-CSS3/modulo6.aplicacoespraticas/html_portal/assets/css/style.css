@@ -63,69 +63,11 @@ body {
   float: right;
   margin-top: 2px;
   margin-left: 2px;
-
 }
 .toporight img {
   margin-right: 4px;
   margin-top: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .topo2 {
   height:95px;
   color: #FFF;
@@ -148,17 +90,48 @@ body {
   height: 80px;
   float: right;
   margin-top:8px;
-  background-color: red;
+  background-color: #FF0000;
 }
 
+.menu {
+  height: 40px;
+  background-color: #FF0000;
 
+}
+.menuint {
+  width: 100%;
+  max-width: 1040px;
+  height: 40px;
+  margin:auto;
+}
 
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+.menu a {
+  color: #FFFFFF;
+  text-decoration:none;
+}
 
-
-
-
-
-
+.submenu {
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+}
 
 
 
