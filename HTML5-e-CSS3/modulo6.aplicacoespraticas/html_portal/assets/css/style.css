@@ -177,10 +177,8 @@ body {
 }
 .leftside {
   width: 753;
-  min-height: 200px;
   float:left;
-  background-color: #999;
-}
+  }
 .rightside {
   width: 275px;
   min-height: 200px;
@@ -218,20 +216,19 @@ body {
   text-decoration: none;
   color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  ghfdghfdgh
+.slideshow {
+  height: 335px;
+  background-color:red;
+  overflow: hidden;
+}
+.slideshowarea {
+  height: 335px;
+  background-color: #CCC;
+}
+.slide {
+  height: 335px;
+  float:left;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
