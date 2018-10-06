@@ -222,6 +222,7 @@ body {
   height: 335px;
   background-color:red;
   overflow:hidden;
+  margin-bottom: 20px;
 }
 .slideshowarea {
   width: 100000px;
