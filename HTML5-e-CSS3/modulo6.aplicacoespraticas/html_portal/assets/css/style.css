@@ -173,7 +173,6 @@ body {
   width: 100%;
   max-width: 1040;
   margin: auto;
-
 }
 .leftside {
   width: 753px;
@@ -216,8 +215,6 @@ body {
   text-decoration: none;
   color: #000000;
 }
-
-
 .slideshow {
   height: 335px;
   background-color:red;
@@ -258,7 +255,6 @@ body {
   position: absolute;
   width: 200px;
   height: 20px;
-
 }
 .bolinha {
   width: 20px;

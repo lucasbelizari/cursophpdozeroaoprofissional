@@ -15,7 +15,6 @@ function passarSlide() {
   } else {
     slideItem++;
   }
-
   document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px"
 }
 function mudarSlide(pos) {
