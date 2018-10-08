@@ -264,5 +264,16 @@ body {
   cursor: pointer;
   background-color: #CCC;
   border-radius: 10px;
-
+}
+.noticiaarea1 {
+  width: 430px;
+  height: 420px;
+  float: left;
+  background-color: #333;
+}
+.noticiaarea2 {
+  width: 320px;
+  height: 420px;
+  float: left;
+  background-color: #000;
 }
