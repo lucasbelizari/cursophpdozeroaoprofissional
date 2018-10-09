@@ -319,3 +319,64 @@ body {
   font-size: 30px;
   width: 384px;
 }
+
+@media only screen and (max-width:1057px) {
+
+    .topoint,
+    .topo2int,
+    .menuint,
+    .ultimasnoticiasint,
+    .containerint {
+      max-width:890px;
+    }
+    .leftside {
+      width:600px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ASDFASDFASDFASDFASDFASDF
