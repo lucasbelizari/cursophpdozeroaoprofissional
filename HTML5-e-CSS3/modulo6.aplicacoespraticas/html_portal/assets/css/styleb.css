@@ -48,7 +48,7 @@ body {
   font:bold;
 }
 .topobusca {
-  width: 50px;
+  width: 80px;
   height: 26px;
   font-size: 12px;
   background-color: #CCC;
@@ -56,12 +56,14 @@ body {
   margin-right: 4px;
   margin-top: 4px;
   border:0px;
+  border-radius: 10px;
 }
 .topobusca:hover {
-  width: 110px;
+  width: 200px;
   transition: all 0.5s linear;
   font-size: 14px;
   background-color: #FFF;
+  border-radius: 14px;
 }
 .toporight .busca input{
   border: 0px;
@@ -70,8 +72,8 @@ body {
 }
 .toporight .busca input:hover {
   border: 0px;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   transition: all 0.07s linear;
 }
 .toporight a {
@@ -94,10 +96,29 @@ body {
 }
 .toporight a img:hover {
   border: 0px;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   transition: all 0.07s linear;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*#####TOPO2#####*/
 .topo2 {
   height:96px;
@@ -160,6 +181,7 @@ body {
   color: #FFFFFF;
   text-decoration:none;
 }
+
 .submenuitem {
   width: 140px;
   height: 30px;
@@ -170,6 +192,15 @@ body {
   background-color: #FF5555;
   transition: all 0.3s linear;
 }
+
+
+
+
+
+
+
+
+
 .ultimasnoticias {
   height: 60px;
 }
@@ -212,7 +243,7 @@ body {
 .leftside {
   width: 753px;
   float:left;
-  }
+}
 .rightside {
   width: 275px;
   min-height: 200px;
@@ -301,6 +332,7 @@ body {
   background-color: #CCC;
   border-radius: 10px;
 }
+
 .noticiaarea1 {
   width: 430px;
   height: 420px;
@@ -313,7 +345,6 @@ body {
   float: left;
   /*background-color: #000;*/
 }
-
 .noticiaitem {
   text-align: left;
   height: 88px;
@@ -356,7 +387,7 @@ body {
   font-size: 30px;
   width: 384px;
 }
-
+/*
 @media only screen and (min-width:996px) and (max-width:1057px) {
 
     .topoint,
@@ -383,6 +414,7 @@ body {
       font-size: 25px;
     }
 }
+
 @media only screen and (min-width:850px) and (max-width:996px) {
   .topoint,
   .topo2int,
@@ -467,3 +499,4 @@ body {
     font-size: 25px;
   }
 }
+*/
