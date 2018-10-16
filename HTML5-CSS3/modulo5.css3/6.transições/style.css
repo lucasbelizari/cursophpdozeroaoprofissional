@@ -1,0 +1,41 @@
+body {
+   margin: 0;
+}
+.exemplo {
+   width: 150px;
+   height: 150px;
+   background-color: green;
+   margin:auto;
+   margin-top: 100px;
+   transition: all 0.2s linear;
+}
+.exemplo:hover {
+   width: 700px;
+   height: 200px;
+
+   background-color: red;
+
+
+   /*border-radius: 100%;*/
+}
+/*a {
+  color: #000;
+  font-size: 19px;
+}
+a:hover {
+  color:#FF0000;
+  transition: all 0.3s linear;
+  font-size: 20px;
+}*/
+
+a img {
+  border: 0px;
+  width: 25px;
+  height: 25px;
+}
+a img:hover {
+  border: 0px;
+  width: 28px;
+  height: 28px;
+  transition: all 0.1s linear;
+}

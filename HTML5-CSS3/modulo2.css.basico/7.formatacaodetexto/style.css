@@ -1,0 +1,44 @@
+body {
+   margin: 0;
+}
+.texto {
+    width: 500px;
+    height: 200px;
+    background-color: #FF0000;
+    color: #000000;
+    font-size: 20px;
+    font-family:Helvetica,Verdana,Arial;
+    font-weight:bold;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:underline;
+}
+.texto1 {
+    color: #000000;
+    font-size: 20px;
+    font-family:Verdana;
+    font-weight:normal;
+    text-transform:lowercase;
+
+}
+.texto2 {
+    color: #000000;
+    font-size: 20px;
+    font-family:Arial;
+    font-weight:200;
+}
+.texto3 {
+    color: #000000;
+    font-size: 20px;
+    font-family:Times-New-Roman;
+    font-weight:200;
+
+
+}
+.texto4 {
+    color: #000000;
+    font-size: 20px;
+    font-family:;
+    font-weight:500;
+
+}

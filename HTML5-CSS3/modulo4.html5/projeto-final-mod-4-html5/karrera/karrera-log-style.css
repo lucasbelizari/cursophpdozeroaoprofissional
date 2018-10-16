@@ -1,0 +1,72 @@
+body {
+  background-color:#292929;
+  color:#FFF"
+  }
+
+#logoleft img {
+
+}
+#login {
+  width: 250px;
+  height: 190px;
+  background-color: #585858;
+  color:#000000;
+  margin: center ;
+  text-align:center;
+  margin-top:180px;
+  padding-top:30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  position: fixed; /*Fixa o elemento nas coordenadas seguintes*/
+      top: 2px;
+      left: 750px;
+}
+/*#areaatuação {
+  width: 190px;
+  height: 20px;
+  color: #FFFFFF;
+  background-color: #585858;
+  border-radius: 3px;
+  border-color: #000000;
+  margin: center ;
+  text-align:center;
+  margin-top:400px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  position: fixed; /*Fixa o elemento nas coordenadas seguintes
+      top: 2px;
+      left: 750px;
+}*/
+.areas {
+  width: 200px;
+  color: #FFFFFF;
+  background-color: #292929;
+  text-align:center;
+  margin: center ;
+  border-radius: 3px;
+  border-color: #292929;
+  padding-top:4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+}
+
+
+.botaoentrar {
+  color: #FFFFFF;
+  background-color: #292929;
+  border-radius: 3px;
+  border-color: #292929;
+}
+
+.termos {
+  color: #fff;
+  font-size: 15px;
+  background-color:
+}
