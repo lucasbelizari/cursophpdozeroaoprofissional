@@ -6,4 +6,5 @@ multiplas
  linhas*/
 //var nome = "Lucaaaaas";
 var nome = "Ciclano";
-alert("O valor de x é: " + x);
+var x = prompt("Qual o número?");
+var nome = prompt("Qual o seu nome?");
