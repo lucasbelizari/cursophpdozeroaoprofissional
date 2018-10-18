@@ -6,4 +6,3 @@ multiplas
  linhas*/
 //var nome = "Lucaaaaas";
 var nome = "Ciclano";
-alert("O valor de x é: " + x);
