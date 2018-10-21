@@ -6,7 +6,7 @@ body {
 }
 /*#####TOPO#####*/
 .topo {
-  height:40px;
+  height:30px;
   background-color: #333333;
 }
 .topoint {
@@ -19,6 +19,7 @@ body {
   width: 50%;
   height: 28px;
   float: left;
+  font-style: italic;
 }
 .toporight {
   width: 50%;
@@ -70,8 +71,8 @@ body {
 }
 .toporight .busca input:hover {
   border: 0px;
-  width: 27px;
-  height: 27px;
+  width: 26px;
+  height: 26px;
   transition: all 0.07s linear;
 }
 .toporight a {
@@ -94,8 +95,7 @@ body {
 }
 .toporight a img:hover {
   border: 0px;
-  width: 35px;
-  height: 35px;
+  margin-top: 1px;
   transition: all 0.07s linear;
 }
 /*#####TOPO2#####*/
@@ -147,13 +147,13 @@ body {
   margin-left: 0px;
 }
 .menu li:hover .submenu {
-  display: block;
+  display: block !important;
 }
 .submenu {
   width: 150px;
   height: 150px;
   background-color: #FF0000;
-  position: absolute;
+  position: absolute !important;;
   display: none;
 }
 .menu a {
@@ -288,9 +288,11 @@ body {
 }
 .slidebolinhas {
   position: absolute;
-  padding-top: 5px;
+  padding-top: 250px;
   width: 200px;
   height: 20px;
+  margin: center;
+
 }
 .bolinha {
   width: 20px;
