@@ -2,16 +2,12 @@ body {
   margin: 0;
   font-family: arial;
   font-size: 12px;
-  color:#FFF;
+  color:#000;
 }
 /*#####TOPO#####*/
 .topo {
-  height:35px;
-  background-color: #212121;
-}
-.topo:hover {
-  background-color: #030303;
-  transition: all 1.5s linear;
+  height:30px;
+  background-color: #333333;
 }
 .topoint {
   width: 100%;
@@ -23,12 +19,10 @@ body {
   width: 50%;
   height: 28px;
   float: left;
-  font-style: italic;
-  color: #000;
 }
 .toporight {
   width: 50%;
-  height: 35px;
+  height: 29px;
   float: right;
   text-align: right;
   margin-top: 0px;
@@ -37,7 +31,6 @@ body {
   margin:0;
   padding:0;
   list-style: none;
-  color: #000;
 }
 .topoleft li {
   height:30px;
@@ -45,49 +38,42 @@ body {
   float: left;
   margin-left: 8px;
   margin-right: 8px;
-  color: #000;
 }
 .topoleft li a {
   text-decoration: none;
   color: #FFF;
-
 }
 .topoleft li .ativo {
   color: red;
   font:bold;
 }
 .topobusca {
-  width: 50px;
+  width: 80px;
   height: 26px;
   font-size: 12px;
-  background-color: #FFF;
+  background-color: #CCC;
   outline: 0;
   margin-right: 4px;
   margin-top: 4px;
-  border:0.01px;
-
+  border:0px;
+  border-radius: 10px;
 }
 .topobusca:hover {
-  width: 110px;
+  width: 200px;
   transition: all 0.5s linear;
   font-size: 14px;
-  background-color: #CCC;
+  background-color: #FFF;
   border-radius: 14px;
-
-
 }
 .toporight .busca input{
   border: 0px;
   width: 25px;
   height: 25px;
-  padding-left: 3px;
-
 }
 .toporight .busca input:hover {
   border: 0px;
-  width: 26px;
-  height: 26px;
-  padding-top: 5px;
+  width: 28px;
+  height: 28px;
   transition: all 0.07s linear;
 }
 .toporight a {
@@ -98,11 +84,10 @@ body {
   margin-top: 2px;
   margin-left: 2px;
   margin-bottom: 2px;
-  margin-top: 5px;
 }
 .toporight img {
   margin-right: 8px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .toporight a img {
   border: 0px;
@@ -111,14 +96,14 @@ body {
 }
 .toporight a img:hover {
   border: 0px;
-  margin-top: 3px;
+  width: 28px;
+  height: 28px;
   transition: all 0.07s linear;
 }
 /*#####TOPO2#####*/
 .topo2 {
   height:96px;
   color: #FFF;
-  padding-top: 5px;
 }
 .topo2int {
   width: 100%;
@@ -164,19 +149,20 @@ body {
   margin-left: 0px;
 }
 .menu li:hover .submenu {
-  display: block !important;
+  display: block;
 }
 .submenu {
   width: 150px;
   height: 150px;
   background-color: #FF0000;
-  position: absolute !important;;
+  position: absolute;
   display: none;
 }
 .menu a {
   color: #FFFFFF;
   text-decoration:none;
 }
+
 .submenuitem {
   width: 140px;
   height: 30px;
@@ -187,6 +173,15 @@ body {
   background-color: #FF5555;
   transition: all 0.3s linear;
 }
+
+
+
+
+
+
+
+
+
 .ultimasnoticias {
   height: 60px;
 }
@@ -229,7 +224,7 @@ body {
 .leftside {
   width: 753px;
   float:left;
-  }
+}
 .rightside {
   width: 275px;
   min-height: 200px;
@@ -305,11 +300,9 @@ body {
 }
 .slidebolinhas {
   position: absolute;
-  padding-top: 250px;
+  padding-top: 5px;
   width: 200px;
   height: 20px;
-  margin: center;
-
 }
 .bolinha {
   width: 20px;
@@ -320,6 +313,7 @@ body {
   background-color: #CCC;
   border-radius: 10px;
 }
+
 .noticiaarea1 {
   width: 430px;
   height: 420px;
@@ -332,7 +326,6 @@ body {
   float: left;
   /*background-color: #000;*/
 }
-
 .noticiaitem {
   text-align: left;
   height: 88px;
@@ -375,40 +368,8 @@ body {
   font-size: 30px;
   width: 384px;
 }
-
-@media only screen and (min-width:1057px) and (max-width:2057px) {
-
-    .topoint,
-    .topo2int,
-    .menuint,
-    .ultimasnoticiasint,
-    .containerint {
-      max-width:890px;
-    }
-    .leftside {
-      width:600px;
-    }
-    .noticiaarea1 {
-      width: 278px;
-    }
-    .noticiabig .noticiaimg {
-      width: 245px;
-    }
-    .noticiabig .noticiaimg img {
-      width: 245px;
-    }
-    .noticiabig .noticiatitulo {
-      width: 245px;
-      font-size: 25px;
-    }
-    .menumobile {
-      display: none;
-    }
-    #menu {
-      display:block !important;
-    }
-}
-@media only screen and (min-width:906px) and (max-width:1057px) {
+/*
+@media only screen and (min-width:996px) and (max-width:1057px) {
 
     .topoint,
     .topo2int,
@@ -433,26 +394,18 @@ body {
       width: 245px;
       font-size: 25px;
     }
-    .menumobile {
-      display: none;
-    }
-    #menu {
-      display:block !important;
-    }
 }
-@media only screen and (min-width:783px) and (max-width:906px) {
+
+@media only screen and (min-width:850px) and (max-width:996px) {
   .topoint,
   .topo2int,
   .menuint,
   .ultimasnoticiasint,
   .containerint {
-    max-width:768px;
+    max-width:758px;
   }
   .topo2 .banner {
     display: none;
-  }
-  #menu {
-    display:block !important;
   }
   .logo {
     float:none;
@@ -478,11 +431,8 @@ body {
     width: 400px;
     font-size: 25px;
   }
-  .menumobile {
-    display: none;
-  }
 }
-@media only screen and (max-width:783px) {
+@media only screen and (max-width:850px) {
   .topoint,
   .topo2int,
   .menuint,
@@ -503,25 +453,8 @@ body {
     float:none;
     margin: auto;
   }
-  .menumobile {
-    display: block;
-  }
-  .menu ul {
-    position: absolute;
-    background-color: #FF0000;
-    z-index: 10;
+  .menuint {
     display: none;
-  }
-  .menu li {
-    float: none;
-    height: auto;
-  }
-  .menu li img {
-    display: none;
-  }
-  .submenu {
-    position: static;
-    display: block;
   }
   .ultimasnoticias {
     display: none;
@@ -532,37 +465,19 @@ body {
   .leftside {
     float: none;
     width: auto;
-    margin-top: 10px;
   }
   .noticiaarea1 {
-    width: 320px;
-    height: auto;
+    width: 436px;
   }
   .noticiabig .noticiaimg {
-    width: 290px;
+    width: 400px;
   }
   .noticiabig .noticiaimg img {
-    width: 290px;
+    width: 400px;
   }
   .noticiabig .noticiatitulo {
-    width: 290px;
+    width: 400px;
     font-size: 25px;
   }
-  .noticiaarea2 {
-    width: 300px;
-    margin: auto;
-    float: none;
-    clear: both;
-    padding-top: 20px;
-  }
-  .noticiaitem {
-    clear: both;
-  }
-  .noticiatitulo {
-    width: 206px;
-  }
-  .noticiainfo {
-    width: 206px;
-  }
-
 }
+*/
